@@ -1,0 +1,6 @@
+/report.xml 
+/.phpstorm.meta.php 
+/.phpunit.result.cache
+/build
+/vendor
+/tests/approvals/*.received.txt
