@@ -29,9 +29,9 @@ Plutôt simple, non ?
 Attendez, ça devient intéressant :
 
 - La qualité (`quality`) d'un produit ne peut jamais être négative.
-- La qualité d'un produit n'est jamais de plus de 50.
 - Une fois que la date de péremption est passée, la qualité se dégrade deux fois plus rapidement.
 - "Aged Brie" augmente sa qualité avec le temps qui passe.
+- La qualité d'un produit n'est jamais de plus de 50.
 - "Sulfuras, Hand of Ragnaros", étant un objet légendaire, n'a pas de date de péremption et ne perd jamais en qualité.
 - les "Backstage passes ...", augmentent leur qualité plus on s'approche de la date du concert (`sellIn`) ; De plus, leur qualité augmente de 2 quand il reste 10 jours ou moins, de 3 quand il reste 5 jours ou moins, et bien entendu tombe à 0 après le concert.
 
