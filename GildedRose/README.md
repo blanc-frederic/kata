@@ -83,3 +83,11 @@ Leeroy n'aime pas écrire des tests, il préfère foncer tout de suite dans le c
 ```bash
 composer test
 ```
+
+Pour lancer les tests avec génération du code-coverage :
+
+```bash
+composer test-coverage
+```
+
+Le rapport sera généré dans `/build/coverage`, vous pouvez le visualiser en ouvrant `index.html` dans un navigateur.
