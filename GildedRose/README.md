@@ -41,8 +41,7 @@ Cela nécessite une mise à jour de notre système :
 - les noms des articles invoqués commencent par "Conjured ".
 - les articles invoqués sont des articles normaux, mais voient leur qualité se dégrader deux fois plus vite.
 
-Vous pouvez faire les changements que vous voulez à la méthode `updateQuality` de la classe `GildedRose` et ajouter autant de code que vous voulez, tant que tout fonctionne correctement.
-
+Vous pouvez faire tous les changements que vous voulez, tant que tout fonctionne correctement.
 Cependant, nous devons vous prévenir, vous ne devez en aucun cas modifier le code de la classe `Item` ou ses propriétés car cette classe appartient au gobelin de l'étage et il entrera dans une rage instantanée et vous tuera sans délai.
 
 Ah oui, juste une dernière précision : un produit ne peut jamais voir sa qualité augmenter au-dessus de 50, cependant Sulfuras est un objet légendaire et comme tel sa qualité est de 80 et elle ne change jamais.
