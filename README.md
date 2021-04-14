@@ -1,7 +1,7 @@
 Code katas
 ==========
 
-- [GildedRose refactoring kata](GildedRose/)
+- [GildedRose refactoring kata](GildedRose/). Refactoring, strategy pattern, polymorphisme
 
 Other kata repositories
 -----------------------
@@ -18,3 +18,11 @@ Other kata repositories
 - [Online-Shopping-Kata](https://github.com/emilybache/Online-Shopping-Kata)
 - [Lift-Kata](https://github.com/emilybache/Lift-Kata)
 - [Racing-Car-Katas](https://github.com/emilybache/Racing-Car-Katas)
+
+Other kata sites
+----------------
+
+- [Kata log](https://kata-log.rocks)
+- [Coding Dojo](https://codingdojo.org/kata/)
+- [Samman coaching kata](https://sammancoaching.org/kata_descriptions/)
+- [Code kata](http://codekata.com/)
