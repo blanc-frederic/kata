@@ -90,3 +90,8 @@ composer test-coverage
 ```
 
 Le rapport sera généré dans `/build/coverage`, vous pouvez le visualiser en ouvrant `index.html` dans un navigateur.
+
+Implémentation
+--------------
+
+Attention, spoil ! [Vous pouvez me retrouver en train de faire ce kata en vidéo](https://youtu.be/HQa2iXWHY60), mais prenez quand même le temps de le faire par vous même, avant d'aller voir comment je m'y suis pris.
