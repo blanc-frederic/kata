@@ -2,6 +2,7 @@ Code katas
 ==========
 
 - [GildedRose refactoring kata](GildedRose/). Refactoring, strategy pattern, polymorphisme
+- [FizzBuzz kata](FizzBuzz/). Problem solving, Beginner
 
 Other kata repositories
 -----------------------
