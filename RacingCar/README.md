@@ -14,10 +14,10 @@ Il y a 4 exercices au total, voici pour chacun les différentes étapes à réal
 
 ### 1/ TirePressureMonitoring
 
-Ce dossier est dédié au fonctionnement du détecteur de pression des pneus lors de la course. Mais il n'y a jamais vraiment eu de tests écrits, il faut y remédier pour que nous puissions faire des refactorisations.
+Ce dossier est dédié au fonctionnement du détecteur de pression des pneus lors de la course.
 
 1. Ecrire des tests unitaires pour les méthodes check et isAlarmOn de la classe Alarm, sans toucher aux fichiers dans le dossier src
-2. Refactoriser la classe Alarm et ajouter des tests pour arriver à une couverture de 100% sur cette classe
+2. Refactoriser la classe Alarm et arriver à une couverture de 100% sur cette classe
 
 ### 2/ UnicodeFileToHtmlTextConverter
 
