@@ -1,7 +1,7 @@
 Bowling scores Kata - PHP Version
 =================================
 
-Ceci est une version adaptée du kata [Voir la version originale](http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata) où vous pourrez également trouver une résolution en TDD sous formes de slides.
+Ceci est une version adaptée du kata. [Voir la version originale](http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata) où vous pourrez également trouver une résolution en TDD sous formes de slides.
 
 Règles du bowling
 -----------------
