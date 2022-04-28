@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Sandromancuso\TripServiceKata\User;
+namespace SandroMancuso\TripServiceKata\User;
 
-use Sandromancuso\TripServiceKata\Trip\Trip;
+use SandroMancuso\TripServiceKata\Trip\Trip;
 
 class User
 {

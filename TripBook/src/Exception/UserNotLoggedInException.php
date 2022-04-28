@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sandromancuso\TripServiceKata\Exception;
+namespace SandroMancuso\TripServiceKata\Exception;
 
 use Exception;
 

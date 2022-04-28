@@ -2,18 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Sandromancuso\TripServiceKata\Trip;
+namespace SandroMancuso\TripServiceKata\Trip;
 
-use Sandromancuso\TripServiceKata\Exception\DependentClassCalledDuringUnitTestException;
-use Sandromancuso\TripServiceKata\User\User;
+use SandroMancuso\TripServiceKata\Exception\ShouldNotBeUsedDuringUnitTest;
+use SandroMancuso\TripServiceKata\User\User;
 
 class TripDAO
 {
     /** @return Trip[] */
     public static function findTripsByUser(User $user): array
     {
-        throw new DependentClassCalledDuringUnitTestException(
-            'TripDAO should not be invoked on an unit test.'
-        );
+        throw new ShouldNotBeUsedDuringUnitTest(self::class);
     }
 }

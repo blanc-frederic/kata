@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sandromancuso\TripServiceKata\Trip;
+namespace SandroMancuso\TripServiceKata\Trip;
 
 class Trip
 {

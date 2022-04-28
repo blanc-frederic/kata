@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Sandromancuso\TripServiceKata\Trip;
+namespace SandroMancuso\TripServiceKata\Trip;
 
-use Sandromancuso\TripServiceKata\Exception\UserNotLoggedInException;
-use Sandromancuso\TripServiceKata\User\User;
-use Sandromancuso\TripServiceKata\User\UserSession;
+use SandroMancuso\TripServiceKata\Exception\UserNotLoggedInException;
+use SandroMancuso\TripServiceKata\User\User;
+use SandroMancuso\TripServiceKata\User\UserSession;
 
 class TripService
 {

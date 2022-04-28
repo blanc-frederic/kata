@@ -2,21 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Sandromancuso\TripServiceKata\User;
+namespace SandroMancuso\TripServiceKata\User;
 
-use Sandromancuso\TripServiceKata\Exception\DependentClassCalledDuringUnitTestException;
+use SandroMancuso\TripServiceKata\Exception\ShouldNotBeUsedDuringUnitTest;
 
 class UserSession
 {
-    /**
-     * @var UserSession
-     */
-    private static $userSession;
+    private static ?UserSession $userSession = null;
 
-    /**
-     * @return UserSession
-     */
-    public static function getInstance()
+    public static function getInstance(): self
     {
         if (null === static::$userSession) {
             static::$userSession = new UserSession();
@@ -25,17 +19,8 @@ class UserSession
         return static::$userSession;
     }
 
-    public function isUserLoggedIn(User $user)
+    public function getLoggedUser(): ?User
     {
-        throw new DependentClassCalledDuringUnitTestException(
-            'UserSession.isUserLoggedIn() should not be called in an unit test'
-        );
-    }
-
-    public function getLoggedUser()
-    {
-        throw new DependentClassCalledDuringUnitTestException(
-            'UserSession.getLoggedUser() should not be called in an unit test'
-        );
+        throw new ShouldNotBeUsedDuringUnitTest('UserSession.getLoggedUser()');
     }
 }
