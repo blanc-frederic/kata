@@ -24,15 +24,20 @@ Installation
 
 Prérequis
 
-- PHP 7.4+
-- [Composer](https://getcomposer.org)
+- Docker
+- Docker-compose
+
+ou
+
+- php >= 7.4
+- composer
 
 Installation
 
 ```bash
 git clone git@github.com:blanc-frederic/kata.git
 cd kata/TripBook
-composer install
+docker-compose run composer install
 ```
 
 Tests
@@ -41,13 +46,13 @@ Tests
 Lancer les tests :
 
 ```bash
-vendor/bin/phpunit
+docker-compose run tests
 ```
 
 Avec génération du code coverage :
 
 ```bash
-vendor/bin/phpunit --coverage-html var/coverage
+docker-compose run coverage
 ```
 
 Le rapport sera généré dans `/var/coverage`, vous pouvez le visualiser en ouvrant `index.html` dans un navigateur.

@@ -1,7 +1,8 @@
 Code katas
 ==========
 
-- [GildedRose refactoring kata](GildedRose/). Refactoring, strategy pattern, polymorphisme
+- [GildedRose refactoring kata](GildedRose/). Refactoring, strategy pattern, polymorphism
+- [TripBook](TripBook/). Legacy code test harness and refactoring
 - [Bowling scores kata](Bowling/). Algorithm, Test Driven Development
 - [Racing car kata](RacingCar/). Adding tests to existing code
 - [FizzBuzz kata](FizzBuzz/). Problem solving, Beginner
@@ -20,7 +21,6 @@ Other kata repositories
 - [IceCreamScorer-Refactoring-Kata](https://github.com/emilybache/IceCreamScorer-Refactoring-Kata)
 - [Online-Shopping-Kata](https://github.com/emilybache/Online-Shopping-Kata)
 - [Lift-Kata](https://github.com/emilybache/Lift-Kata)
-- [Racing-Car-Katas](https://github.com/emilybache/Racing-Car-Katas)
 
 Other kata sites
 ----------------
