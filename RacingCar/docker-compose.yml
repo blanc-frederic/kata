@@ -10,3 +10,12 @@ services:
       - .:/app
     working_dir: /app
     entrypoint: vendor/bin/phpunit
+
+  coverage:
+    build: ./docker/coverage/
+    environment:
+      - XDEBUG_MODE=coverage
+    volumes:
+      - .:/app
+    working_dir: /app
+    entrypoint: vendor/bin/phpunit --coverage-html var/coverage

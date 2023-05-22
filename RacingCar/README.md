@@ -63,3 +63,12 @@ Lancer les tests
 ```bash
 docker compose run tests
 ```
+
+Coverage
+--------
+
+Pour générer le coverage dans var/coverage
+
+```bash
+docker compose run coverage
+```
