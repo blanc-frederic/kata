@@ -45,15 +45,14 @@ Installation
 
 Prérequis
 
-- PHP 7.4+
-- [Composer](https://getcomposer.org)
+- Docker
 
 Installation
 
 ```bash
 git clone git@github.com:blanc-frederic/kata.git
 cd kata/RacingCar
-composer install
+docker compose run composer install
 ```
 
 Tests
@@ -62,13 +61,5 @@ Tests
 Lancer les tests
 
 ```bash
-composer test
+docker compose run tests
 ```
-
-Pour lancer les tests avec génération du code-coverage :
-
-```bash
-composer test-coverage
-```
-
-Le rapport sera généré dans `/build/coverage`, vous pouvez le visualiser en ouvrant `index.html` dans un navigateur.
