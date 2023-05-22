@@ -51,15 +51,14 @@ Installation
 
 Prérequis
 
-- PHP 7.4+
-- [Composer](https://getcomposer.org)
+- Docker
 
 Installation
 
 ```bash
 git clone git@github.com:blanc-frederic/kata.git
 cd kata/GildedRose
-composer install
+docker compose run composer install
 ```
 
 Structure
@@ -80,18 +79,13 @@ Tests
 Leeroy n'aime pas écrire des tests, il préfère foncer tout de suite dans le code. Il n'y a donc pas beaucoup de tests, mais vous pouvez les lancer avec la commande suivante :
 
 ```bash
-composer test
+docker compose run tests
 ```
 
 Pour lancer les tests avec génération du code-coverage :
 
 ```bash
-composer test-coverage
+docker compose run coverage
 ```
 
-Le rapport sera généré dans `/build/coverage`, vous pouvez le visualiser en ouvrant `index.html` dans un navigateur.
-
-Implémentation
---------------
-
-Attention, spoil ! [Vous pouvez me retrouver en train de faire ce kata en vidéo](https://youtu.be/HQa2iXWHY60), mais prenez quand même le temps de le faire par vous même, avant d'aller voir comment je m'y suis pris.
+Le rapport sera généré dans `/var/coverage`, vous pouvez le visualiser en ouvrant `index.html` dans un navigateur.
